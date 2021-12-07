@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY FACULTY WEBSITE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+.dropbtn {
+  background-color: #002A5C;
+  color: white;
+  padding: 18px;
+  height: 100%
+  width: 550px;
+  font-size: 16px;
+  border: block;
+}
+
+.dropdown {
+  position: left;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 80px;
+  box-shadow: none;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #000024;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block; }
+
+.dropdown:hover .dropbtn {background-color: grey;}
+</style>
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+<body>
+
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><img src="data0/images/university_of_toronto.png" alt="University of Toronto" title="University of Toronto" id="wows0_0"/></li>
+		<li><img src="data0/images/university_of_toronto_1.jpg" alt="University of Toronto (1)" title="University of Toronto (1)" id="wows0_1"/></li>
+		<li><img src="data0/images/university_of_toronto_2.jpg" alt="University of Toronto (2)" title="University of Toronto (2)" id="wows0_2"/></li>
+		<li><img src="data0/images/university_of_toronto_3.jpg" alt="University of Toronto (3)" title="University of Toronto (3)" id="wows0_3"/></li>
+		<li><img src="data0/images/university_of_toronto_4.jpg" alt="University of Toronto (4)" title="University of Toronto (4)" id="wows0_4"/></li>
+		<li><img src="data0/images/university_of_toronto_5.jpg" alt="University of Toronto (5)" title="University of Toronto (5)" id="wows0_5"/></li>
+		<li><img src="data0/images/university_of_toronto_6.jpg" alt="University of Toronto (6)" title="University of Toronto (6)" id="wows0_6"/></li>
+		<li><a href="http://wowslider.net"><img src="data0/images/university_of_toronto_7.jpg" alt="css slideshow" title="University of Toronto (7)" id="wows0_7"/></a></li>
+		<li><img src="data0/images/university_of_toronto_8.jpg" alt="University of Toronto (8)" title="University of Toronto (8)" id="wows0_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="University of Toronto"><span>1</span></a>
+		<a href="#" title="University of Toronto (1)"><span>2</span></a>
+		<a href="#" title="University of Toronto (2)"><span>3</span></a>
+		<a href="#" title="University of Toronto (3)"><span>4</span></a>
+		<a href="#" title="University of Toronto (4)"><span>5</span></a>
+		<a href="#" title="University of Toronto (5)"><span>6</span></a>
+		<a href="#" title="University of Toronto (6)"><span>7</span></a>
+		<a href="#" title="University of Toronto (7)"><span>8</span></a>
+		<a href="#" title="University of Toronto (8)"><span>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">image slider</a> by WOWSlider.com v9.0</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+	<!-- End WOWSlider.com BODY section --><link type="text/css" rel="stylesheet" href="25.css"/>
+<br>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="dropdown">
+  <button class="dropbtn"><i class="fa fa-home" style="color:white" aria-hidden="true"></i> HOME </button>
+  <div class="dropdown-content">
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">ABOUT US</button>
+  <div class="dropdown-content">
+    <a href="#">History</a>
+		<a href="#">Administration</a>
+    <a href="#">Governing Body</a>
+    <a href="#">Vision and Mission</a>
+
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">FACILITIES</button>
+  <div class="dropdown-content">
+    <a href="#">Library</a>
+    <a href="#">Cafeteria</a>
+    <a href="#">Herbal Garden</a>
+	<a href="#">Solar Panel Roof</a>
+    <a href="#">Medical Availabilty</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"><i class="fa fa-bell" style="color:white" aria-hidden="true"></i> NOTIFICATION</button>
+  <div class="dropdown-content">
+    <a href="#">News Updates</a>
+    <a href="#">Time Table</a>
+    <a href="#">Faculty Information</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"><i class="fa fa-sign-in" style="color:white" aria-hidden="true"></i> ACCOUNT</button>
+  <div class="dropdown-content">
+    <a href="#">Log In</a>
+    <a href="#">Log Out</a>
+    <a href="#">Registration</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"> <i class="fa fa-cog" style="color:white" aria-hidden="true"></i> SETTING</button>
+  <div class="dropdown-content">
+    <a href="#">Personalisation</a>
+    <a href="#">Page Layout</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"> <i class="fa fa-phone" style="color:white" aria-hidden="true"></i> CONTACT US</button>
+  <div class="dropdown-content">
+    <a href="#">Via Call</a>
+    <a href="#">Via Email</a>
+  </div>
+</div>
+
+
+</ul>
+
+<table border="5px" width="100%" height="590px">
+<tbody>
+<tr>
+<th border="1px" width="100%" height="px" </th>
+
+<iframe src="E:\Saurav Singh\Student Web Services _ University of Toronto.html" name="iframe_a" style="height:790px;width:1310px"></iframe>
+
+<p><a href="E:\Saurav Singh\" target="toronto.htm"></a></p>
+
+</tr>
+
+<tr>
+<td colspan="4" width="50%" height="40px" style= "color:#000024" > <i class="fa fa-copyright" aria-hidden="true"></i> COPYRIGHT</td>
+</tr>
+
+</body>
+</html>
